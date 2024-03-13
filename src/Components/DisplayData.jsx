@@ -21,7 +21,7 @@ const DisplayData = () => {
       });
   }, []);
 
-  // Fetch users for the current page on mount, page change, or page size change
+  
   useEffect(() => {
     const fetchUsers = async () => {
       try {
